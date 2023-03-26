@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    [
+      "transform-react-jsx",
+      {
+        "pragma": "React.createElement",
+        "pragmaFrag": "React.Fragment",
+        "throwIfNamespace": false,
+        "useBuiltIns": true,
+        "useSpread": true,
+        "keepCurlyBraces": true,
+      }
+    ]
+  ]
+}
